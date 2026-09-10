@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "骆国樑"
+title                    : "骆国樑 | 电子科学与工程学院"
 description              : "AI加速的自旋电子器件研究"
 repository               : "Andre8726/luogl201.github.io"
 google_scholar_stats_use_cdn : false
@@ -37,7 +37,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "luo guoliang"
+  github           : "Andre8726"
   google_plus      :
   keybase          :
   instagram        :
@@ -45,7 +45,7 @@ author:
   lastfm           :
   linkedin         : # e.g., "linkedin username"
   dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : "https://orcid.org/0000-0001-9658-209X"
+  orcid            : "https://orcid.org/0009-0000-4110-0700"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
