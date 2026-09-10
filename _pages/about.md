@@ -35,7 +35,7 @@ redirect_from:
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利
-1.  <u>**Luo, G**</u>. et al. Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors. J. Phys. Chem. C 129, 4851–4862 (2025).
+1.  <u><strong>Luo, G</strong></u>. et al. Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors. J. Phys. Chem. C 129, 4851–4862 (2025).
 
 <span class='anchor' id='-gzsx'></span>
 
