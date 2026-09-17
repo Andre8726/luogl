@@ -1,13 +1,13 @@
 # main links links
 main:
   - title: "简介"
-    url: "/luogl/#about-me"
+    url: "/#about-me"
 
   - title: "教育经历"
-    url: "/luogl/#-jyjl"
+    url: "/#-jyjl"
 
   - title: "论文专利"
-    url: "/luogl/#-lwzl"
+    url: "/#-lwzl"
 
   - title: "工作实习"
-    url: "/luogl/#-gzsx"
+    url: "/#-gzsx"
