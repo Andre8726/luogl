@@ -1,9 +1,10 @@
 ---
 permalink: /
+lang: zh-CN
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
@@ -28,10 +29,10 @@ redirect_from:
 <span class='anchor' id='-jyjl'></span>
 
 # 🎓 教育经历
-- 2026.09 - 至今, 南京大学 电子科学与工程学院｜苏州国家重点实验室 人工智能研究部, 联培博士 
-- 2022.09 - 2025.06, 吉林大学 材料科学与工程学院, 吉林长春, 硕士 
+- 2026.09 - 至今, 南京大学 电子科学与工程学院｜苏州国家重点实验室 人工智能研究部, 联培博士
+- 2022.09 - 2025.06, 吉林大学 材料科学与工程学院, 吉林长春, 硕士
 - 2018.09 - 2022.06, 吉林大学 材料科学与工程学院, 吉林长春, 学士
- 
+
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利

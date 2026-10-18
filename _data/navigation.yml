@@ -11,3 +11,13 @@ main:
 
   - title: "工作实习"
     url: "/#-gzsx"
+
+main_en:
+  - title: "About"
+    url: "/eng/#about-me"
+  - title: "Education"
+    url: "/eng/#education"
+  - title: "Publications"
+    url: "/eng/#publications"
+  - title: "Experience"
+    url: "/eng/#experience"

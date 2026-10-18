@@ -412,7 +412,10 @@
 }
 
 .footer_site{
-  padding-top: 9em;
+  margin-top: 3em;
+  padding: 1em;
+  border-top: 1px solid $border-color;
+  clear: both;
   align-items: center;
 }
 .page_a {
@@ -426,11 +429,24 @@ hr {
   margin: auto;
 }
 
-.footer_copyright{
+.footer_copyright {
   font-family: $sans-serif-narrow;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
+  font-size: 1em;
+  line-height: 1.7;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
+  gap: 0.25em 1.5em;
+  text-align: center;
+
+  .footer_credit {
+    min-width: 0;
+  }
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25em;
+  }
 }

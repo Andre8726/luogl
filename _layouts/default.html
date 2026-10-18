@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!doctype html>
-<html lang="en" class="no-js">
+<html lang="{{ page.lang | default: 'zh-CN' }}" class="no-js">
   <head>
     {% include head.html %}
     {% include head/custom.html %}
@@ -16,7 +16,7 @@ layout: compress
 
     <div id="main" role="main">
       {% include sidebar.html %}
-    
+
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
@@ -29,22 +29,13 @@ layout: compress
 
     {% include scripts.html %}
 
-<div class="footer_site">
-<hr/>
-<div class="footer_copyright">
-  © 2026 南大 · 骆国樑 | 基于&nbsp
-  <a class="page_a"  href="https://github.com/RayeRen/acad-homepage.github.io">
-  acad
-  </a>&nbsp模板
-   
-  <span id="busuanzi_container_site_pv">
-    &nbsp;|&nbsp;本站总访问量 <span id="busuanzi_value_site_pv"></span> 次
-  </span>
-
-  <!-- 不蒜子访问统计 -->
+<footer class="footer_site">
+  <div class="footer_copyright">
+    <span class="footer_credit">{% if page.lang == 'en' %}© 2026 Nanjing University · Guoliang Luo{% else %}© 2026 南大 · 骆国樑{% endif %}</span>
+    <span class="footer_credit">{% if page.lang == 'en' %}Powered by <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad</a> template{% else %}基于 <a class="page_a" href="https://github.com/RayeRen/acad-homepage.github.io">acad</a> 模板{% endif %}</span>
+    <span class="footer_credit" id="busuanzi_container_site_pv">{% if page.lang == 'en' %}Total visits{% else %}本站总访问量{% endif %} <span id="busuanzi_value_site_pv"></span>{% unless page.lang == 'en' %} 次{% endunless %}</span>
+  </div>
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-
-</div>
-</div>
+</footer>
   </body>
 </html>
