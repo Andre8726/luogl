@@ -26,6 +26,8 @@ redirect_from:
 - 自旋电子
 - 存储器件
 
+{% include news.md %}
+
 <span class='anchor' id='-jyjl'></span>
 
 # 🎓 教育经历
