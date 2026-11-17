@@ -18,8 +18,6 @@ My research interests include:
 - Spintronics
 - Memory devices
 
-{% include news.md %}
-
 <span class="anchor" id="education"></span>
 
 # 🎓 Education
