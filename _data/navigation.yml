@@ -3,7 +3,7 @@ main:
   - title: "简介"
     url: "/#about-me"
 
-  - title: "News"
+  - title: "最新动态"
     url: "/#news"
 
   - title: "教育经历"
