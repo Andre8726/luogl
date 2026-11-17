@@ -3,6 +3,9 @@ main:
   - title: "简介"
     url: "/#about-me"
 
+  - title: "News"
+    url: "/#news"
+
   - title: "教育经历"
     url: "/#-jyjl"
 
@@ -15,6 +18,8 @@ main:
 main_en:
   - title: "About"
     url: "/eng/#about-me"
+  - title: "News"
+    url: "/eng/#news"
   - title: "Education"
     url: "/eng/#education"
   - title: "Publications"
