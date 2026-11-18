@@ -1,4 +1,10 @@
-# 日期使用 YYYY-MM 格式。每条动态填写中英文正文。
+# 日期使用 YYYY-MM 格式。动态只显示在有对应语言正文的页面。
 - date: "2026-09"
-  zh-CN: "开始在南京大学与苏州实验室联合培养攻读博士学位。"
+  zh-CN: "开始在南京大学与苏州实验室联合培养攻读博士学位。 🎉🎉"
   en: "Started my PhD in the joint program between Nanjing University and Suzhou Laboratory."
+- date: "2025-07"
+  zh-CN: "加入武汉楚兴技术有限公司。"
+- date: "2025-06"
+  zh-CN: "从吉林大学材料学院硕士毕业。"
+- date: "2022-06"
+  zh-CN: "从吉林大学材料学院本科毕业。"

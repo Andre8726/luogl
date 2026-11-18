@@ -31,14 +31,24 @@ redirect_from:
 <span class='anchor' id='-jyjl'></span>
 
 # 🎓 教育经历
-- 2026.09 - 至今, 南京大学 电子科学与工程学院｜苏州国家重点实验室 人工智能研究部, 联培博士
-- 2022.09 - 2025.06, 吉林大学 材料科学与工程学院, 吉林长春, 硕士
-- 2018.09 - 2022.06, 吉林大学 材料科学与工程学院, 吉林长春, 学士
+- 2026.09 - 至今, <span class="education-school"><img src="{{ '/images/nanjing-university.png' | relative_url }}" alt="">南京大学</span> 电子科学与工程学院｜苏州国家重点实验室 人工智能研究部, 联培博士
+- 2022.09 - 2025.06, <span class="education-school"><img src="{{ '/images/jilin-university.png' | relative_url }}" alt="">吉林大学</span> 材料科学与工程学院, 吉林长春, 硕士
+- 2018.09 - 2022.06, <span class="education-school"><img src="{{ '/images/jilin-university.png' | relative_url }}" alt="">吉林大学</span> 材料科学与工程学院, 吉林长春, 学士
 
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利
-1.  <u><strong>Luo, G</strong></u>. et al. Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors. J. Phys. Chem. C 129, 4851–4862 (2025).
+<div class="paper-box">
+  <div class="paper-box-image">
+    <img src="{{ '/images/luo-2025-paper.png' | relative_url }}" width="520" height="280"
+         alt="从介电性质预测与随机森林分类，到筛选光伏和辐射探测候选半导体的研究示意图">
+  </div>
+  <p class="paper-box-text">
+    <u><strong>Luo, G</strong></u>. et al.
+    <a href="https://doi.org/10.1021/acs.jpcc.4c08372">Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors.</a>
+    J. Phys. Chem. C 129, 4851–4862 (2025).
+  </p>
+</div>
 
 <span class='anchor' id='-gzsx'></span>
 

@@ -4,5 +4,8 @@
 
 {% assign news_items = site.data.news | sort: "date" | reverse %}
 {% for item in news_items -%}
-- **{{ item.date | replace: "-", "." }}** {{ item[page.lang] }}
+{% assign news_text = item[page.lang] -%}
+{% if news_text and news_text != empty -%}
+- **{{ item.date | replace: "-", "." }}** {{ news_text }}
+{% endif -%}
 {% endfor %}

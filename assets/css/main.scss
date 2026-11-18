@@ -40,51 +40,45 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.education-school {
+  white-space: nowrap;
+
+  img {
+    width: 1.2em;
+    height: 1.2em;
+    margin-right: .3em;
+    object-fit: contain;
+    vertical-align: middle;
+  }
+}
+
 .paper-box {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-bottom: 1px #efefef solid;
-    padding: 2em 0 2em 0;
-    
+  display: grid;
+  align-items: center;
+  gap: 1em;
 
-    .paper-box-image{
-        justify-content: center;
-        display: flex;
-        width: 100%;
-        order: 2;
-        img {
-            max-width: 400px;
-            box-shadow: 3px 3px 6px #888;
-            object-fit: cover;
-        }
+  @include breakpoint($medium) {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    gap: 1.5em;
+  }
+
+  .paper-box-image img {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+  }
+
+  .paper-box-text {
+    margin: 0;
+
+    a {
+      text-decoration: underline;
+      text-underline-offset: .16em;
     }
-    
-    .paper-box-text{
-        max-width: 100%;
-        order: 1;
-    }
-    
-    @include breakpoint($medium) {
-        .paper-box-image{
-            justify-content: left;
-            min-width: 200px;
-            max-width: 40%;
-            order: 1;
-        }
-        
-        .paper-box-text{
-            justify-content: left;
-            padding-left: 2em;
-            max-width: 60%;
-            order: 2;
-        }
-
-    }
-
-
+  }
 }
 
 $scroll_offset : 2em;
