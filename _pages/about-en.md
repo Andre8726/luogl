@@ -23,14 +23,14 @@ My research interests include:
 <span class="anchor" id="education"></span>
 
 # 🎓 Education
-- September 2026 – Present: Joint PhD Program, School of Electronic Science and Engineering, Nanjing University, and Artificial Intelligence Research Department, Suzhou Laboratory
-- September 2022 – June 2025: Master's Degree, College of Materials Science and Engineering, Jilin University, Changchun, China
-- September 2018 – June 2022: Bachelor's Degree, College of Materials Science and Engineering, Jilin University, Changchun, China
+- September 2026 – Present: Joint PhD Program, School of Electronic Science and Engineering, <span class="education-school"><img src="{{ '/images/nanjing-university.png' | relative_url }}" alt="">Nanjing University</span>, and Artificial Intelligence Research Department, Suzhou Laboratory
+- September 2022 – June 2025: Master's Degree, College of Materials Science and Engineering, <span class="education-school"><img src="{{ '/images/jilin-university.png' | relative_url }}" alt="">Jilin University</span>, Changchun, China
+- September 2018 – June 2022: Bachelor's Degree, College of Materials Science and Engineering, <span class="education-school"><img src="{{ '/images/jilin-university.png' | relative_url }}" alt="">Jilin University</span>, Changchun, China
 
 <span class="anchor" id="publications"></span>
 
 # 📝 Publications and Patents
-1. <u><strong>Luo, G</strong></u>. et al. Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors. J. Phys. Chem. C 129, 4851–4862 (2025).
+{% include publications.html %}
 
 <span class="anchor" id="experience"></span>
 

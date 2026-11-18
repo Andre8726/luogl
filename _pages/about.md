@@ -38,17 +38,7 @@ redirect_from:
 <span class='anchor' id='-lwzl'></span>
 
 # 📝 论文专利
-<div class="paper-box">
-  <div class="paper-box-image">
-    <img src="{{ '/images/luo-2025-paper.png' | relative_url }}" width="520" height="280"
-         alt="从介电性质预测与随机森林分类，到筛选光伏和辐射探测候选半导体的研究示意图">
-  </div>
-  <p class="paper-box-text">
-    <u><strong>Luo, G</strong></u>. et al.
-    <a href="https://doi.org/10.1021/acs.jpcc.4c08372">Machine Learning-Assisted Dielectric Screening of Bismuth/Antimony-Based Compounds for Promising Optoelectronic Semiconductors.</a>
-    J. Phys. Chem. C 129, 4851–4862 (2025).
-  </p>
-</div>
+{% include publications.html %}
 
 <span class='anchor' id='-gzsx'></span>
 
